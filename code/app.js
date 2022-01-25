@@ -5,7 +5,7 @@
 
 // use d3 to read in samples.json and arrane data
 function init() {
-    d3.json("samples.json").then((data) => {
+    d3.json("data\samples.json").then((data) => {
 
 // array of subject id numbers
     var subjectID = data.names;
