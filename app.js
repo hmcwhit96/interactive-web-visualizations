@@ -1,9 +1,3 @@
-// used local environment fix from Cecelia Zhang [https://github.com/yxz674] to work around the 
-// issue of d3.json not working with local files
-// console: "python -m http.server" 
-// OR right click index.html and select "Open With Live Server (CTRL+L CTRL+O)"
-
-// use d3 to read in samples.json and arrane data
 function init() {
   d3.json("data\samples.json").then((data) => {
 
